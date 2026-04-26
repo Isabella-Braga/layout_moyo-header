@@ -2,7 +2,7 @@
   --blue: #00acdc;
 }
 
-/* RESET SEM '*' (OBRIGATÓRIO) */
+/* RESET SEM '*' (OBRIGATÓRIO PELO REVIEW) */
 body {
   margin: 0;
   font-family: Roboto, sans-serif;
@@ -43,7 +43,7 @@ ul {
   display: flex;
 }
 
-/* espaçamento sem gap (obrigatório nos testes) */
+/* spacing sem gap */
 .nav__item:not(:last-child) {
   margin-right: 20px;
 }
@@ -59,8 +59,8 @@ ul {
   font-size: 12px;
   text-transform: uppercase;
 
-  color: #000;
   text-decoration: none;
+  color: #000;
 
   position: relative;
 }
@@ -75,9 +75,9 @@ ul {
   color: var(--blue);
 }
 
-/* underline do active */
+/* UNDERLINE ACTIVE */
 .is-active::after {
-  content: '';
+  content: "";
   position: absolute;
 
   left: 0;
